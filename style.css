@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Edu+SA+Beginner:wght@500&display=swap');
+:root{
+    --red:#EF233C;
+    --white:white;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:black; /* #000814 */
+    color:var(--white);
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Edu SA Beginner', cursive; */
+    font-family: 'Lora', serif;
+    font-size: 19px;
+    
+}
+
+    
+.navbar-brand{
+    color: white;
+
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.text-danger{
+    color: rgb(218, 20, 20);
+}
+.nav-item a{
+    color:white;
+    font-weight: bolder;
+}
+.nav-item a:hover{
+    color:red;
+}
+
+.h-5{
+    min-height: 550px;
+    
+    
+}
+
+.name,.card-title1{
+    font-size: 45px;
+    font-family: 'Lucida Grande';
+    font-weight: bold;
+}
+.input-group-text:hover{
+    color: black;
+
+}
+   
+.card-body1{
+    color: white;
+}
+.nav-item{
+    padding-left: 40px;
+}
+
+.profile{
+    /* width:50%; */
+    margin: 60px;
+    margin-left: 250px;
+    filter: drop-shadow(5px 1px 10px rgb(132, 123, 111) );
+}
+.img-fluid{
+    filter: drop-shadow(5px 1px 10px rgb(107, 100, 88) );
+
+}
+.card img{
+    height: 300px;
+}
+
+
+.card-title{
+    color: red;
+    text-align: center;
+}
+.icons i{
+    margin-left: 10px;
+    color:var(--red);
+}
+.row{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
